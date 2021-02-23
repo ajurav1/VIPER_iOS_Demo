@@ -32,7 +32,7 @@ class ImageLibraryDemoUITests: XCTestCase {
         
         // 2. when
         app/*@START_MENU_TOKEN@*/.buttons["Search"]/*[[".keyboards",".buttons[\"search\"]",".buttons[\"Search\"]"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/.tap()
-        sleep(2)
+        sleep(10)
         app.swipeUp()
         sleep(2)
         

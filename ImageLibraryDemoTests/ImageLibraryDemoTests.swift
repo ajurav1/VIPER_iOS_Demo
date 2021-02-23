@@ -32,7 +32,7 @@ class ImageLibraryDemoTests: XCTestCase {
         }
         
         // 3. then
-        waitForExpectations(timeout: 5) { (error) in
+        waitForExpectations(timeout: 30) { (error) in
             XCTAssertTrue((photoOutput?.photos?.photo!.count)! > 0)
             XCTAssertNotNil(photoOutput?.photos)
         }
