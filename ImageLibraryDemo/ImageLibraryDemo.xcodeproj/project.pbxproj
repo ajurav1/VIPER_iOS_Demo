@@ -32,7 +32,7 @@
 		9A72D41525CD7B77007B985F /* WebServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A72D41225CD7B77007B985F /* WebServiceProtocol.swift */; };
 		9A72D41625CD7B77007B985F /* CodableUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A72D41325CD7B77007B985F /* CodableUtility.swift */; };
 		9A72D41B25CD7BE5007B985F /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A72D41A25CD7BE5007B985F /* IndicatorView.swift */; };
-		9A72D42925CD9985007B985F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A72D42825CD9985007B985F /* README.md */; };
+		9AE2B9F225E5361900DEEB85 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9AE2B9F125E5361900DEEB85 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,7 +84,7 @@
 		9A72D41225CD7B77007B985F /* WebServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceProtocol.swift; sourceTree = "<group>"; };
 		9A72D41325CD7B77007B985F /* CodableUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableUtility.swift; sourceTree = "<group>"; };
 		9A72D41A25CD7BE5007B985F /* IndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
-		9A72D42825CD9985007B985F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9AE2B9F125E5361900DEEB85 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,7 +189,7 @@
 		9A6C2CD925CD274A003325BF = {
 			isa = PBXGroup;
 			children = (
-				9A72D42825CD9985007B985F /* README.md */,
+				9AE2B9F125E5361900DEEB85 /* README.md */,
 				9A6C2CE425CD274A003325BF /* ImageLibraryDemo */,
 				9A6C2CFB25CD274B003325BF /* ImageLibraryDemoTests */,
 				9A6C2D0625CD274B003325BF /* ImageLibraryDemoUITests */,
@@ -351,7 +351,7 @@
 			files = (
 				9A6C2CF225CD274B003325BF /* LaunchScreen.storyboard in Resources */,
 				9A6C2CEF25CD274B003325BF /* Assets.xcassets in Resources */,
-				9A72D42925CD9985007B985F /* README.md in Resources */,
+				9AE2B9F225E5361900DEEB85 /* README.md in Resources */,
 				9A6C2CED25CD274A003325BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
