@@ -8,18 +8,18 @@
 import Foundation
 
 //MARK:- PRESENTER -> VIEW
-protocol HomeViewProtocol: class {
+protocol HomeViewProtocol: AnyObject {
     func imagesDidFetch(pages: PageModel)
 }
 
 //MARK:- PRESENTER -> INTERACTOR
-protocol HomeRequestInteractorProtocol: class {
+protocol HomeRequestInteractorProtocol: AnyObject {
     var presenter: HomeResponseInteractorProtocol? {get set}
     func getImageList(inputModel: ImageInputModel)
 }
 
 //MARK:- VIEW -> PRESENTER
-protocol HomePresenterProtocol: class {
+protocol HomePresenterProtocol: AnyObject {
     var interactor: HomeRequestInteractorProtocol? {set get}
     var route: HomeRouteProtocol? {get set}
     var view: HomeViewProtocol? {get set}
@@ -27,9 +27,9 @@ protocol HomePresenterProtocol: class {
 }
 
 //MARK:- INTERACTOR -> PRESENTER
-protocol HomeResponseInteractorProtocol: class {
+protocol HomeResponseInteractorProtocol: AnyObject {
     func imagesDidFetch(pages: PageModel)
 }
 
 //MARK:- PRESENTER -> ROUTE
-protocol HomeRouteProtocol: class { }
+protocol HomeRouteProtocol: AnyObject { }
